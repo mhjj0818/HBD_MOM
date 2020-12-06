@@ -1,0 +1,24 @@
+html{margin-top:0px;}
+#bg { position: fixed; top: 0px; left: 0px;
+	 width: 200%; height: 200%;}
+p{text-align: center;}
+#bg2 { position: fixed; top: 0px; left: 0px;
+	 width:100%}
+.blinking{ 
+	-webkit-animation:blink 1.0s ease-in-out infinite alternate;
+    -moz-animation:blink 1.0s ease-in-out infinite alternate;
+    animation:blink 1.0s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+.topbox:hover {background-image: url(/img/img2.png); margin-left: 200px; opacity: 0%}
